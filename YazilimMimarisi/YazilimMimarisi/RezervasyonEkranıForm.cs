@@ -29,7 +29,7 @@ namespace YazilimMimarisi
                 if(baglan.State==ConnectionState.Closed)
                 {
                     baglan.Open();
-                    string Rez = "insert into RezBilgileri (musteri_ad,musteri_soyad,musteri_tcno,musteri_telno,lokasyon,konaklama,ulasim,gidis_tarihi,donus_tarihi,gidis_saati,donus_saati,oda_sayisi,gun_sayisi)values(@musteri_ad,@musteri_soyad,@musteri_tcno,@musteri_telno,@lokasyon,@konaklama,@ulasim,@gidis_tarihi,@donus_tarihi,@gidis_saati,@donus_saati,@oda_sayisi,@gun_sayisi)";
+                    string Rez = "insert into RezBilgileri (musteri_ad,musteri_soyad,musteri_tcno,musteri_telno,lokasyon,konaklama,ulasim,gidis_tarihi,donus_tarihi,gidis_saati,donus_saati,oda_sayisi,gun_sayisi,musteri_mail)values(@musteri_ad,@musteri_soyad,@musteri_tcno,@musteri_telno,@lokasyon,@konaklama,@ulasim,@gidis_tarihi,@donus_tarihi,@gidis_saati,@donus_saati,@oda_sayisi,@gun_sayisi,@musteri_mail)";
 
                     SqlCommand komut = new SqlCommand(Rez, baglan);
                     komut.Parameters.AddWithValue("@musteri_ad", MusteriAdtextBox.Text);
@@ -45,6 +45,7 @@ namespace YazilimMimarisi
                     komut.Parameters.AddWithValue("@donus_saati",DonusSaaticomboBox.Text);
                     komut.Parameters.AddWithValue("@oda_sayisi", OdaSayısıtextBox.Text);
                     komut.Parameters.AddWithValue("@gun_sayisi",GunSayisiTextBox.Text);
+                    komut.Parameters.AddWithValue("@musteri_mail", MusteriMailtextBox.Text);
 
                     komut.ExecuteNonQuery();
 

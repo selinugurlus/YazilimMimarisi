@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\YazilimMimarisi",
+    "\\YazilimMimarisi\\YazilimMimarisi"
   ],
-  "SelectedNode": "\\YazilimMimarisi.sln",
+  "SelectedNode": "\\YazilimMimarisi\\YazilimMimarisi\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }

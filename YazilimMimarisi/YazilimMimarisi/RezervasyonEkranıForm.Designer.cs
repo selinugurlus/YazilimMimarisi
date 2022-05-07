@@ -72,6 +72,8 @@ namespace YazilimMimarisi
             this.GunSayisiTextBox = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.MusteriMailtextBox = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -143,6 +145,8 @@ namespace YazilimMimarisi
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.MusteriMailtextBox);
+            this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.MusteriTelNotextBox);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.MusteriTCtextBox);
@@ -155,7 +159,7 @@ namespace YazilimMimarisi
             this.groupBox1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.groupBox1.Location = new System.Drawing.Point(75, 11);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(471, 313);
+            this.groupBox1.Size = new System.Drawing.Size(471, 339);
             this.groupBox1.TabIndex = 6;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "MÜŞTERİ BİLGİLERİ";
@@ -557,6 +561,26 @@ namespace YazilimMimarisi
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
             // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label17.Location = new System.Drawing.Point(41, 290);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(166, 29);
+            this.label17.TabIndex = 7;
+            this.label17.Text = "MAİL ADRESİ:";
+            // 
+            // MusteriMailtextBox
+            // 
+            this.MusteriMailtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.MusteriMailtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MusteriMailtextBox.Location = new System.Drawing.Point(245, 287);
+            this.MusteriMailtextBox.Name = "MusteriMailtextBox";
+            this.MusteriMailtextBox.Size = new System.Drawing.Size(100, 35);
+            this.MusteriMailtextBox.TabIndex = 8;
+            // 
             // RezervasyonEkranıForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -629,5 +653,7 @@ namespace YazilimMimarisi
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox MusteriMailtextBox;
+        private System.Windows.Forms.Label label17;
     }
 }

@@ -8,3 +8,4 @@ C:\Users\selin\source\repos\YazilimMimarisi\yazılımmimarisi1\YazilimMimarisi\Y
 C:\Users\selin\source\repos\YazilimMimarisi\yazılımmimarisi1\YazilimMimarisi\YazilimMimarisi\obj\Debug\YazilimMimarisi.csproj.CoreCompileInputs.cache
 C:\Users\selin\source\repos\YazilimMimarisi\yazılımmimarisi1\YazilimMimarisi\YazilimMimarisi\obj\Debug\YazilimMimarisi.exe
 C:\Users\selin\source\repos\YazilimMimarisi\yazılımmimarisi1\YazilimMimarisi\YazilimMimarisi\obj\Debug\YazilimMimarisi.pdb
+C:\Users\selin\source\repos\YazilimMimarisi\yazılımmimarisi1\YazilimMimarisi\YazilimMimarisi\obj\Debug\YazilimMimarisi.RezİptalEkranıForm.resources

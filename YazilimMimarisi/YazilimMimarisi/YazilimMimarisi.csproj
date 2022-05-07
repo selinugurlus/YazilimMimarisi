@@ -60,6 +60,12 @@
     <Compile Include="RezervasyonEkranıForm.Designer.cs">
       <DependentUpon>RezervasyonEkranıForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="RezİptalEkranıForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RezİptalEkranıForm.Designer.cs">
+      <DependentUpon>RezİptalEkranıForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="YazilimMimairsiDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -76,6 +82,9 @@
     </Compile>
     <EmbeddedResource Include="RezervasyonEkranıForm.resx">
       <DependentUpon>RezervasyonEkranıForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RezİptalEkranıForm.resx">
+      <DependentUpon>RezİptalEkranıForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
