@@ -58,5 +58,12 @@ namespace YazilimMimarisi
 
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AnamenuForm ana = new AnamenuForm();
+            ana.Show();
+            this.Hide();
+        }
     }
 }

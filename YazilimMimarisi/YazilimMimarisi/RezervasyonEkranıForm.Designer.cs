@@ -37,43 +37,44 @@ namespace YazilimMimarisi
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.MusteriTCtextBox = new System.Windows.Forms.TextBox();
+            this.MusteriMailtextBox = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
             this.MusteriTelNotextBox = new System.Windows.Forms.TextBox();
+            this.MusteriTCtextBox = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.M = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.KartAdtextBox = new System.Windows.Forms.TextBox();
-            this.KartSoyadtextBox = new System.Windows.Forms.TextBox();
-            this.KartNotextBox = new System.Windows.Forms.TextBox();
             this.KartCVCtextBox = new System.Windows.Forms.TextBox();
+            this.KartNotextBox = new System.Windows.Forms.TextBox();
+            this.KartSoyadtextBox = new System.Windows.Forms.TextBox();
+            this.KartAdtextBox = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.M = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.LokasyoncomboBox = new System.Windows.Forms.ComboBox();
-            this.KonaklamacomboBox = new System.Windows.Forms.ComboBox();
-            this.UlasimcomboBox = new System.Windows.Forms.ComboBox();
-            this.GidisSaaticomboBox = new System.Windows.Forms.ComboBox();
+            this.GunSayisiTextBox = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.DonusTarihidateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.GidisTarihidateTimePicker = new System.Windows.Forms.DateTimePicker();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.OdaSayısıtextBox = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
             this.DonusSaaticomboBox = new System.Windows.Forms.ComboBox();
+            this.GidisSaaticomboBox = new System.Windows.Forms.ComboBox();
+            this.UlasimcomboBox = new System.Windows.Forms.ComboBox();
+            this.KonaklamacomboBox = new System.Windows.Forms.ComboBox();
+            this.LokasyoncomboBox = new System.Windows.Forms.ComboBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.OdenecekTutartextBox = new System.Windows.Forms.TextBox();
             this.RezYapButton = new System.Windows.Forms.Button();
-            this.label14 = new System.Windows.Forms.Label();
-            this.OdaSayısıtextBox = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.GidisTarihidateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.DonusTarihidateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.label18 = new System.Windows.Forms.Label();
-            this.GunSayisiTextBox = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label17 = new System.Windows.Forms.Label();
-            this.MusteriMailtextBox = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -164,14 +165,25 @@ namespace YazilimMimarisi
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "MÜŞTERİ BİLGİLERİ";
             // 
-            // MusteriTCtextBox
+            // MusteriMailtextBox
             // 
-            this.MusteriTCtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.MusteriTCtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MusteriTCtextBox.Location = new System.Drawing.Point(245, 170);
-            this.MusteriTCtextBox.Name = "MusteriTCtextBox";
-            this.MusteriTCtextBox.Size = new System.Drawing.Size(100, 35);
-            this.MusteriTCtextBox.TabIndex = 5;
+            this.MusteriMailtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.MusteriMailtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MusteriMailtextBox.Location = new System.Drawing.Point(245, 287);
+            this.MusteriMailtextBox.Name = "MusteriMailtextBox";
+            this.MusteriMailtextBox.Size = new System.Drawing.Size(100, 35);
+            this.MusteriMailtextBox.TabIndex = 8;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label17.Location = new System.Drawing.Point(41, 290);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(166, 29);
+            this.label17.TabIndex = 7;
+            this.label17.Text = "MAİL ADRESİ:";
             // 
             // MusteriTelNotextBox
             // 
@@ -181,6 +193,15 @@ namespace YazilimMimarisi
             this.MusteriTelNotextBox.Name = "MusteriTelNotextBox";
             this.MusteriTelNotextBox.Size = new System.Drawing.Size(100, 35);
             this.MusteriTelNotextBox.TabIndex = 6;
+            // 
+            // MusteriTCtextBox
+            // 
+            this.MusteriTCtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.MusteriTCtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.MusteriTCtextBox.Location = new System.Drawing.Point(245, 170);
+            this.MusteriTCtextBox.Name = "MusteriTCtextBox";
+            this.MusteriTCtextBox.Size = new System.Drawing.Size(100, 35);
+            this.MusteriTCtextBox.TabIndex = 5;
             // 
             // groupBox2
             // 
@@ -200,38 +221,41 @@ namespace YazilimMimarisi
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "KART BİLGİLERİ";
             // 
-            // M
+            // KartCVCtextBox
             // 
-            this.M.AutoSize = true;
-            this.M.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.M.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.M.Location = new System.Drawing.Point(19, 46);
-            this.M.Name = "M";
-            this.M.Size = new System.Drawing.Size(49, 26);
-            this.M.TabIndex = 2;
-            this.M.Text = "AD:";
+            this.KartCVCtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.KartCVCtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.KartCVCtextBox.Location = new System.Drawing.Point(417, 103);
+            this.KartCVCtextBox.Name = "KartCVCtextBox";
+            this.KartCVCtextBox.Size = new System.Drawing.Size(100, 35);
+            this.KartCVCtextBox.TabIndex = 12;
             // 
-            // label6
+            // KartNotextBox
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(19, 103);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(97, 26);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "SOYAD:";
+            this.KartNotextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.KartNotextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.KartNotextBox.Location = new System.Drawing.Point(417, 41);
+            this.KartNotextBox.Name = "KartNotextBox";
+            this.KartNotextBox.Size = new System.Drawing.Size(100, 35);
+            this.KartNotextBox.TabIndex = 11;
             // 
-            // label7
+            // KartSoyadtextBox
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(280, 46);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(115, 26);
-            this.label7.TabIndex = 8;
-            this.label7.Text = "KART NO:";
+            this.KartSoyadtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.KartSoyadtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.KartSoyadtextBox.Location = new System.Drawing.Point(122, 94);
+            this.KartSoyadtextBox.Name = "KartSoyadtextBox";
+            this.KartSoyadtextBox.Size = new System.Drawing.Size(100, 35);
+            this.KartSoyadtextBox.TabIndex = 10;
+            // 
+            // KartAdtextBox
+            // 
+            this.KartAdtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.KartAdtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.KartAdtextBox.Location = new System.Drawing.Point(122, 37);
+            this.KartAdtextBox.Name = "KartAdtextBox";
+            this.KartAdtextBox.Size = new System.Drawing.Size(100, 35);
+            this.KartAdtextBox.TabIndex = 9;
             // 
             // label8
             // 
@@ -244,41 +268,38 @@ namespace YazilimMimarisi
             this.label8.TabIndex = 8;
             this.label8.Text = "CVC:";
             // 
-            // KartAdtextBox
+            // label7
             // 
-            this.KartAdtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.KartAdtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.KartAdtextBox.Location = new System.Drawing.Point(122, 37);
-            this.KartAdtextBox.Name = "KartAdtextBox";
-            this.KartAdtextBox.Size = new System.Drawing.Size(100, 35);
-            this.KartAdtextBox.TabIndex = 9;
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label7.Location = new System.Drawing.Point(280, 46);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(115, 26);
+            this.label7.TabIndex = 8;
+            this.label7.Text = "KART NO:";
             // 
-            // KartSoyadtextBox
+            // label6
             // 
-            this.KartSoyadtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.KartSoyadtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.KartSoyadtextBox.Location = new System.Drawing.Point(122, 94);
-            this.KartSoyadtextBox.Name = "KartSoyadtextBox";
-            this.KartSoyadtextBox.Size = new System.Drawing.Size(100, 35);
-            this.KartSoyadtextBox.TabIndex = 10;
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Location = new System.Drawing.Point(19, 103);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(97, 26);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "SOYAD:";
             // 
-            // KartNotextBox
+            // M
             // 
-            this.KartNotextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.KartNotextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.KartNotextBox.Location = new System.Drawing.Point(417, 41);
-            this.KartNotextBox.Name = "KartNotextBox";
-            this.KartNotextBox.Size = new System.Drawing.Size(100, 35);
-            this.KartNotextBox.TabIndex = 11;
-            // 
-            // KartCVCtextBox
-            // 
-            this.KartCVCtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.KartCVCtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.KartCVCtextBox.Location = new System.Drawing.Point(417, 103);
-            this.KartCVCtextBox.Name = "KartCVCtextBox";
-            this.KartCVCtextBox.Size = new System.Drawing.Size(100, 35);
-            this.KartCVCtextBox.TabIndex = 12;
+            this.M.AutoSize = true;
+            this.M.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.M.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.M.Location = new System.Drawing.Point(19, 46);
+            this.M.Name = "M";
+            this.M.Size = new System.Drawing.Size(49, 26);
+            this.M.TabIndex = 2;
+            this.M.Text = "AD:";
             // 
             // groupBox3
             // 
@@ -308,98 +329,98 @@ namespace YazilimMimarisi
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "REZERVASYON BİLGİLERİ";
             // 
-            // label5
+            // GunSayisiTextBox
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(94, 305);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(207, 29);
-            this.label5.TabIndex = 2;
-            this.label5.Text = "ULAŞIM TERCİHİ:";
+            this.GunSayisiTextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.GunSayisiTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.GunSayisiTextBox.Location = new System.Drawing.Point(419, 201);
+            this.GunSayisiTextBox.Name = "GunSayisiTextBox";
+            this.GunSayisiTextBox.Size = new System.Drawing.Size(100, 35);
+            this.GunSayisiTextBox.TabIndex = 20;
             // 
-            // label9
+            // label18
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(91, 365);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(156, 29);
-            this.label9.TabIndex = 3;
-            this.label9.Text = "GİDİŞ SAATİ:";
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label18.Location = new System.Drawing.Point(91, 207);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(153, 29);
+            this.label18.TabIndex = 19;
+            this.label18.Text = "GÜN SAYISI:";
             // 
-            // label10
+            // DonusTarihidateTimePicker
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(94, 417);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(180, 29);
-            this.label10.TabIndex = 4;
-            this.label10.Text = "DÖNÜŞ SAATİ:";
+            this.DonusTarihidateTimePicker.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.DonusTarihidateTimePicker.Location = new System.Drawing.Point(419, 152);
+            this.DonusTarihidateTimePicker.Name = "DonusTarihidateTimePicker";
+            this.DonusTarihidateTimePicker.Size = new System.Drawing.Size(200, 35);
+            this.DonusTarihidateTimePicker.TabIndex = 17;
             // 
-            // label11
+            // GidisTarihidateTimePicker
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(94, 63);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(151, 29);
-            this.label11.TabIndex = 5;
-            this.label11.Text = "LOKASYON:";
+            this.GidisTarihidateTimePicker.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.GidisTarihidateTimePicker.Location = new System.Drawing.Point(419, 104);
+            this.GidisTarihidateTimePicker.Name = "GidisTarihidateTimePicker";
+            this.GidisTarihidateTimePicker.Size = new System.Drawing.Size(200, 35);
+            this.GidisTarihidateTimePicker.TabIndex = 16;
             // 
-            // label12
+            // label16
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label12.Location = new System.Drawing.Point(91, 257);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(267, 29);
-            this.label12.TabIndex = 6;
-            this.label12.Text = "KONAKLAMA TERCİHİ:";
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label16.Location = new System.Drawing.Point(91, 158);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(195, 29);
+            this.label16.TabIndex = 15;
+            this.label16.Text = "DÖNÜŞ  TARİHİ:";
             // 
-            // LokasyoncomboBox
+            // label15
             // 
-            this.LokasyoncomboBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.LokasyoncomboBox.FormattingEnabled = true;
-            this.LokasyoncomboBox.Items.AddRange(new object[] {
-            "Bodrum",
-            "Çeşme",
-            "Fethiye",
-            "Kaş"});
-            this.LokasyoncomboBox.Location = new System.Drawing.Point(419, 55);
-            this.LokasyoncomboBox.Name = "LokasyoncomboBox";
-            this.LokasyoncomboBox.Size = new System.Drawing.Size(121, 37);
-            this.LokasyoncomboBox.TabIndex = 7;
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label15.Location = new System.Drawing.Point(91, 110);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(165, 29);
+            this.label15.TabIndex = 14;
+            this.label15.Text = "GİDİŞ TARİHİ:";
             // 
-            // KonaklamacomboBox
+            // OdaSayısıtextBox
             // 
-            this.KonaklamacomboBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.KonaklamacomboBox.FormattingEnabled = true;
-            this.KonaklamacomboBox.Items.AddRange(new object[] {
-            "Otel",
-            "Çadır"});
-            this.KonaklamacomboBox.Location = new System.Drawing.Point(419, 249);
-            this.KonaklamacomboBox.Name = "KonaklamacomboBox";
-            this.KonaklamacomboBox.Size = new System.Drawing.Size(121, 37);
-            this.KonaklamacomboBox.TabIndex = 8;
+            this.OdaSayısıtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.OdaSayısıtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.OdaSayısıtextBox.Location = new System.Drawing.Point(419, 462);
+            this.OdaSayısıtextBox.Name = "OdaSayısıtextBox";
+            this.OdaSayısıtextBox.Size = new System.Drawing.Size(100, 35);
+            this.OdaSayısıtextBox.TabIndex = 13;
             // 
-            // UlasimcomboBox
+            // label14
             // 
-            this.UlasimcomboBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.UlasimcomboBox.FormattingEnabled = true;
-            this.UlasimcomboBox.Items.AddRange(new object[] {
-            "Otobüs",
-            "Uçak"});
-            this.UlasimcomboBox.Location = new System.Drawing.Point(419, 302);
-            this.UlasimcomboBox.Name = "UlasimcomboBox";
-            this.UlasimcomboBox.Size = new System.Drawing.Size(121, 37);
-            this.UlasimcomboBox.TabIndex = 9;
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label14.Location = new System.Drawing.Point(94, 468);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(151, 29);
+            this.label14.TabIndex = 12;
+            this.label14.Text = "ODA SAYISI:";
+            // 
+            // DonusSaaticomboBox
+            // 
+            this.DonusSaaticomboBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.DonusSaaticomboBox.FormattingEnabled = true;
+            this.DonusSaaticomboBox.Items.AddRange(new object[] {
+            "00:00",
+            "08:00",
+            "12:00",
+            "16:00",
+            "20:00"});
+            this.DonusSaaticomboBox.Location = new System.Drawing.Point(419, 409);
+            this.DonusSaaticomboBox.Name = "DonusSaaticomboBox";
+            this.DonusSaaticomboBox.Size = new System.Drawing.Size(121, 37);
+            this.DonusSaaticomboBox.TabIndex = 11;
             // 
             // GidisSaaticomboBox
             // 
@@ -416,20 +437,98 @@ namespace YazilimMimarisi
             this.GidisSaaticomboBox.Size = new System.Drawing.Size(121, 37);
             this.GidisSaaticomboBox.TabIndex = 10;
             // 
-            // DonusSaaticomboBox
+            // UlasimcomboBox
             // 
-            this.DonusSaaticomboBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.DonusSaaticomboBox.FormattingEnabled = true;
-            this.DonusSaaticomboBox.Items.AddRange(new object[] {
-            "00:00",
-            "08:00",
-            "12:00",
-            "16:00",
-            "20:00"});
-            this.DonusSaaticomboBox.Location = new System.Drawing.Point(419, 409);
-            this.DonusSaaticomboBox.Name = "DonusSaaticomboBox";
-            this.DonusSaaticomboBox.Size = new System.Drawing.Size(121, 37);
-            this.DonusSaaticomboBox.TabIndex = 11;
+            this.UlasimcomboBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.UlasimcomboBox.FormattingEnabled = true;
+            this.UlasimcomboBox.Items.AddRange(new object[] {
+            "Otobüs",
+            "Uçak"});
+            this.UlasimcomboBox.Location = new System.Drawing.Point(419, 302);
+            this.UlasimcomboBox.Name = "UlasimcomboBox";
+            this.UlasimcomboBox.Size = new System.Drawing.Size(121, 37);
+            this.UlasimcomboBox.TabIndex = 9;
+            // 
+            // KonaklamacomboBox
+            // 
+            this.KonaklamacomboBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.KonaklamacomboBox.FormattingEnabled = true;
+            this.KonaklamacomboBox.Items.AddRange(new object[] {
+            "Otel",
+            "Çadır"});
+            this.KonaklamacomboBox.Location = new System.Drawing.Point(419, 249);
+            this.KonaklamacomboBox.Name = "KonaklamacomboBox";
+            this.KonaklamacomboBox.Size = new System.Drawing.Size(121, 37);
+            this.KonaklamacomboBox.TabIndex = 8;
+            // 
+            // LokasyoncomboBox
+            // 
+            this.LokasyoncomboBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.LokasyoncomboBox.FormattingEnabled = true;
+            this.LokasyoncomboBox.Items.AddRange(new object[] {
+            "Bodrum",
+            "Çeşme",
+            "Fethiye",
+            "Kaş"});
+            this.LokasyoncomboBox.Location = new System.Drawing.Point(419, 55);
+            this.LokasyoncomboBox.Name = "LokasyoncomboBox";
+            this.LokasyoncomboBox.Size = new System.Drawing.Size(121, 37);
+            this.LokasyoncomboBox.TabIndex = 7;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label12.Location = new System.Drawing.Point(91, 257);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(267, 29);
+            this.label12.TabIndex = 6;
+            this.label12.Text = "KONAKLAMA TERCİHİ:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label11.Location = new System.Drawing.Point(94, 63);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(151, 29);
+            this.label11.TabIndex = 5;
+            this.label11.Text = "LOKASYON:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.Location = new System.Drawing.Point(94, 417);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(180, 29);
+            this.label10.TabIndex = 4;
+            this.label10.Text = "DÖNÜŞ SAATİ:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label9.Location = new System.Drawing.Point(91, 365);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(156, 29);
+            this.label9.TabIndex = 3;
+            this.label9.Text = "GİDİŞ SAATİ:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Location = new System.Drawing.Point(94, 305);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(207, 29);
+            this.label5.TabIndex = 2;
+            this.label5.Text = "ULAŞIM TERCİHİ:";
             // 
             // label13
             // 
@@ -463,84 +562,6 @@ namespace YazilimMimarisi
             this.RezYapButton.UseVisualStyleBackColor = false;
             this.RezYapButton.Click += new System.EventHandler(this.RezYapButton_Click);
             // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label14.Location = new System.Drawing.Point(94, 468);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(151, 29);
-            this.label14.TabIndex = 12;
-            this.label14.Text = "ODA SAYISI:";
-            // 
-            // OdaSayısıtextBox
-            // 
-            this.OdaSayısıtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.OdaSayısıtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.OdaSayısıtextBox.Location = new System.Drawing.Point(419, 462);
-            this.OdaSayısıtextBox.Name = "OdaSayısıtextBox";
-            this.OdaSayısıtextBox.Size = new System.Drawing.Size(100, 35);
-            this.OdaSayısıtextBox.TabIndex = 13;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label15.Location = new System.Drawing.Point(91, 110);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(165, 29);
-            this.label15.TabIndex = 14;
-            this.label15.Text = "GİDİŞ TARİHİ:";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label16.Location = new System.Drawing.Point(91, 158);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(195, 29);
-            this.label16.TabIndex = 15;
-            this.label16.Text = "DÖNÜŞ  TARİHİ:";
-            // 
-            // GidisTarihidateTimePicker
-            // 
-            this.GidisTarihidateTimePicker.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.GidisTarihidateTimePicker.Location = new System.Drawing.Point(419, 104);
-            this.GidisTarihidateTimePicker.Name = "GidisTarihidateTimePicker";
-            this.GidisTarihidateTimePicker.Size = new System.Drawing.Size(200, 35);
-            this.GidisTarihidateTimePicker.TabIndex = 16;
-            // 
-            // DonusTarihidateTimePicker
-            // 
-            this.DonusTarihidateTimePicker.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.DonusTarihidateTimePicker.Location = new System.Drawing.Point(419, 152);
-            this.DonusTarihidateTimePicker.Name = "DonusTarihidateTimePicker";
-            this.DonusTarihidateTimePicker.Size = new System.Drawing.Size(200, 35);
-            this.DonusTarihidateTimePicker.TabIndex = 17;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label18.Location = new System.Drawing.Point(91, 207);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(153, 29);
-            this.label18.TabIndex = 19;
-            this.label18.Text = "GÜN SAYISI:";
-            // 
-            // GunSayisiTextBox
-            // 
-            this.GunSayisiTextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.GunSayisiTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.GunSayisiTextBox.Location = new System.Drawing.Point(419, 201);
-            this.GunSayisiTextBox.Name = "GunSayisiTextBox";
-            this.GunSayisiTextBox.Size = new System.Drawing.Size(100, 35);
-            this.GunSayisiTextBox.TabIndex = 20;
-            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
@@ -561,31 +582,23 @@ namespace YazilimMimarisi
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
             // 
-            // label17
+            // button1
             // 
-            this.label17.AutoSize = true;
-            this.label17.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label17.Location = new System.Drawing.Point(41, 290);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(166, 29);
-            this.label17.TabIndex = 7;
-            this.label17.Text = "MAİL ADRESİ:";
-            // 
-            // MusteriMailtextBox
-            // 
-            this.MusteriMailtextBox.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.MusteriMailtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.MusteriMailtextBox.Location = new System.Drawing.Point(245, 287);
-            this.MusteriMailtextBox.Name = "MusteriMailtextBox";
-            this.MusteriMailtextBox.Size = new System.Drawing.Size(100, 35);
-            this.MusteriMailtextBox.TabIndex = 8;
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Location = new System.Drawing.Point(12, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(45, 35);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "<-";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // RezervasyonEkranıForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1353, 713);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.RezYapButton);
@@ -655,5 +668,6 @@ namespace YazilimMimarisi
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox MusteriMailtextBox;
         private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.Button button1;
     }
 }

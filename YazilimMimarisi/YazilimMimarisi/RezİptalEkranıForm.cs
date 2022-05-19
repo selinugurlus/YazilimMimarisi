@@ -60,5 +60,12 @@ namespace YazilimMimarisi
             baglan.Close();
             MessageBox.Show("Konaklama ve ulaşım rezervasyonunuz iptal edilmiştir.");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AnamenuForm ana = new AnamenuForm();
+            ana.Show();
+            this.Hide();
+        }
     }
     }

@@ -16,7 +16,7 @@ namespace YazilimMimarisi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RezİptalEkranıForm());
+            Application.Run(new AnamenuForm());
         }
     }
 }
