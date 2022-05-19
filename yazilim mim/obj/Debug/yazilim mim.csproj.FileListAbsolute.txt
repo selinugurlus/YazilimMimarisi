@@ -1,0 +1,10 @@
+C:\Users\user1\source\repos\yazilim mim\yazilim mim\bin\Debug\yazilim mim.exe.config
+C:\Users\user1\source\repos\yazilim mim\yazilim mim\bin\Debug\yazilim mim.exe
+C:\Users\user1\source\repos\yazilim mim\yazilim mim\bin\Debug\yazilim mim.pdb
+C:\Users\user1\source\repos\yazilim mim\yazilim mim\obj\Debug\yazilim mim.csproj.AssemblyReference.cache
+C:\Users\user1\source\repos\yazilim mim\yazilim mim\obj\Debug\yazilim_mim.Form1.resources
+C:\Users\user1\source\repos\yazilim mim\yazilim mim\obj\Debug\yazilim_mim.Properties.Resources.resources
+C:\Users\user1\source\repos\yazilim mim\yazilim mim\obj\Debug\yazilim mim.csproj.GenerateResource.cache
+C:\Users\user1\source\repos\yazilim mim\yazilim mim\obj\Debug\yazilim mim.csproj.CoreCompileInputs.cache
+C:\Users\user1\source\repos\yazilim mim\yazilim mim\obj\Debug\yazilim mim.exe
+C:\Users\user1\source\repos\yazilim mim\yazilim mim\obj\Debug\yazilim mim.pdb
