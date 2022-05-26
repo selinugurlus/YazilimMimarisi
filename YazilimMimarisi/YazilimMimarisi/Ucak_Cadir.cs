@@ -8,10 +8,11 @@ namespace YazilimMimarisi
 {
     public class Ucak_Cadir : AbstractGenerate_rezervasyon
     {
+       
 
         public Ucak_Cadir()
         {
-            System.Windows.Forms.MessageBox.Show("Ucak-cadir rezervsyon olosturdu");
+            
         }
         public override IKonaklama CreatKonklama()
         {
@@ -23,6 +24,11 @@ namespace YazilimMimarisi
             return new Ucak();
         }
 
+       
 
+        public override string Tercih()
+        {
+            return "ucak-cadir";
+        }
     }
 }

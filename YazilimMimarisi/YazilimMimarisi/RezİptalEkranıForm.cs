@@ -18,7 +18,7 @@ namespace YazilimMimarisi
             InitializeComponent();
         }
 
-        static string constring = ("Data Source=LAPTOP-CS90DTMS\\MSSQL;Initial Catalog=YazilimMimairsi;Integrated Security=True");
+        static string constring = ("Data Source=DESKTOP-CFN2IQC;Initial Catalog=YazilimMimairsi;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
         SqlConnection baglan = new SqlConnection(constring);
         
         
@@ -34,31 +34,38 @@ namespace YazilimMimarisi
                 baglan.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            baglan.Open();
-            SqlCommand cmd = new SqlCommand("Update RezBilgileri Set konaklama='NULL',oda_sayisi='NULL',gun_sayisi='NULL' Where musteri_mail='" + RezİptalRezNotextBox.Text + "'", baglan);
-            cmd.ExecuteNonQuery();
-            baglan.Close();
-            MessageBox.Show("Konaklama rezervasyonunuz iptal edilmiştir.");
-        }
-
-        private void UlasımRezİptalbutton_Click(object sender, EventArgs e)
-        {
-            baglan.Open();
-            SqlCommand cmd = new SqlCommand("Update RezBilgileri Set ulasim='NULL',gidis_saat='NULL',donus_saat='NULL' Where musteri_mail='" + RezİptalRezNotextBox.Text + "'", baglan);
-            cmd.ExecuteNonQuery();
-            baglan.Close();
-            MessageBox.Show("Ulaşım rezervasyonunuz iptal edilmiştir.");
-        }
+       
 
         private void HepsiİptalButton_Click(object sender, EventArgs e)
         {
-            baglan.Open();
-            SqlCommand cmd = new SqlCommand("delete from RezBilgileri  Where musteri_mail='" + RezİptalRezNotextBox.Text + "'", baglan);
-            cmd.ExecuteNonQuery();
-            baglan.Close();
-            MessageBox.Show("Konaklama ve ulaşım rezervasyonunuz iptal edilmiştir.");
+
+
+            DialogResult dialog = new DialogResult();
+            dialog = MessageBox.Show("diğer rezervasyonunda iptal edelmese istiyourmusunuz?", "UYARI!!!!!", MessageBoxButtons.YesNo);
+            if (dialog == DialogResult.Yes)
+            {
+                baglan.Open();
+                SqlCommand cmd = new SqlCommand("delete from RezBilgileri  Where musteri_mail='" + RezİptalRezNotextBox.Text + "'", baglan);
+                cmd.ExecuteNonQuery();
+                baglan.Close();
+                MessageBox.Show("iptal edilmiştir.");
+                AnamenuForm an = new AnamenuForm();
+               
+                AnamenuForm anaf = new AnamenuForm();
+                anaf.Show();
+                this.Close();
+            }
+            else
+            {
+               
+            }
+
+            
+
+
+
+
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -66,6 +73,11 @@ namespace YazilimMimarisi
             AnamenuForm ana = new AnamenuForm();
             ana.Show();
             this.Hide();
+        }
+
+        private void RezİptalEkranıForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
     }

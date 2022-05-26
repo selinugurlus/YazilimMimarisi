@@ -10,7 +10,7 @@ namespace YazilimMimarisi
     {
         public Otobus_Cadir()
         {
-            System.Windows.Forms.MessageBox.Show("otobus-cadir rezervsyon olosturdu");
+            
         }
         public override IKonaklama CreatKonklama()
         {
@@ -20,6 +20,10 @@ namespace YazilimMimarisi
         public override IUlasim CreatUlasim()
         {
             return new Otobus();
+        }
+        public override string Tercih()
+        {
+            return "otobus-cadir";
         }
     }
 }

@@ -8,9 +8,11 @@ namespace YazilimMimarisi
 {
     public class Otobus_Otel : AbstractGenerate_rezervasyon
     {
+       
         public Otobus_Otel()
         {
-            System.Windows.Forms.MessageBox.Show("otobus-otel rezervsyon olosturdu");
+            
+           
         }
         public override IKonaklama CreatKonklama()
         {
@@ -20,6 +22,10 @@ namespace YazilimMimarisi
         public override IUlasim CreatUlasim()
         {
             return new Otobus();
+        }
+        public override string Tercih()
+        {
+            return "otobus-otel";
         }
 
 

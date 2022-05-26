@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace YazilimMimarisi
 {
-    public class Cadir : IKonaklama
+    class Person
     {
-        public void konaklama_rezer()
-        {
-            
-        }
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }

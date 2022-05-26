@@ -8,7 +8,10 @@ namespace YazilimMimarisi
 {
     public abstract class AbstractGenerate_rezervasyon
     {
+        
+      
         public abstract IUlasim CreatUlasim();
         public abstract IKonaklama CreatKonklama();
+        public abstract string  Tercih();
     }
 }

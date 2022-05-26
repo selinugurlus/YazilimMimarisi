@@ -11,7 +11,7 @@ namespace YazilimMimarisi
     {
         public Ucak_Otel()
         {
-            System.Windows.Forms.MessageBox.Show("Ucak-otel rezervsyon olosturdu");
+            
         }
         public override IKonaklama CreatKonklama()
         {
@@ -22,5 +22,10 @@ namespace YazilimMimarisi
         {
             return new Ucak();
         }
+        public override string Tercih()
+        {
+            return "ucak-otel";
+        }
+       
     }
 }

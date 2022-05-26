@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="YazilimMimarisi.AbstractGenerate_rezervasyon">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>AbstractGenerate_rezervasyon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YazilimMimarisi.Cadir">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Cadir.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="YazilimMimarisi.Ucak_Cadir">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Ucak_Cadir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YazilimMimarisi.Ucak_Otel">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Ucak_Otel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YazilimMimarisi.Otobus_Cadir">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Otobus_Cadir.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YazilimMimarisi.Otobus_Otel">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAgAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Otobus_Otel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="YazilimMimarisi.Otobus">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Otobus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="YazilimMimarisi.Ucak">
+    <Position X="6.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ucak.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="YazilimMimarisi.Otel">
+    <Position X="8.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Otel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="YazilimMimarisi.Rezervasyon_yap">
+    <Position X="9" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAABAAAAAgAAAAAAAAAAEAAAAAABAAAA=</HashCode>
+      <FileName>Rezervasyon_yap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="YazilimMimarisi.IKonaklama">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IKonaklama.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="YazilimMimarisi.IUlasim">
+    <Position X="6.75" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IUlasim.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

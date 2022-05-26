@@ -19,7 +19,7 @@ namespace YazilimMimarisi
 
         private void RezYapbutton_Click(object sender, EventArgs e)
         {
-            RezervasyonEkranıForm rez = new RezervasyonEkranıForm();
+            RezervasyonEkraniForm rez = new RezervasyonEkraniForm();
             rez.Show(); 
             this.Hide();
         }
